@@ -1,0 +1,38 @@
+#game-container {
+    text-align: center;
+    margin: 50px;
+}
+
+#pattern-display {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#user-input {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+/* Style the arrow symbols */
+.arrow-up::before {
+    content: '↑';
+}
+
+.arrow-down::before {
+    content: '↓';
+}
+
+.arrow-left::before {
+    content: '←';
+}
+
+.arrow-right::before {
+    content: '→';
+}
+
+.highlight {
+    color: green;
+    /* Adjust the color as needed */
+    font-weight: bold;
+    /* Optionally make it bold */
+}
