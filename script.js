@@ -124,9 +124,7 @@ function handleResult() {
     updateAttemptsDisplay();
     localStorage.setItem('correctAttempts', correctAttempts);
     localStorage.setItem('incorrectAttempts', incorrectAttempts);
-    setTimeout(() => {
-        location.reload();
-    }, 1000); // Delayed reload after displaying the result
+    location.reload();
 }
 
 function updateAttemptsDisplay() {
@@ -144,3 +142,4 @@ document.addEventListener('keydown', handleKeyPress);
 
 
 generatePattern();
+updateAttemptsDisplay();
